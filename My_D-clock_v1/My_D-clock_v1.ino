@@ -1,3 +1,5 @@
+//Created By Google-D-------------------
+//
 #include <Wire.h>
 #include <TimeLib.h>
 #include <DS1307RTC.h>
@@ -47,10 +49,6 @@ void setup() {
   display.print("...");
   tone(piezoPin, 1000, 200);
   display.display();
-
-
-
-
 }
 
 void loop() {
